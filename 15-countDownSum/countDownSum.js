@@ -1,7 +1,9 @@
 class MySolution {
   countDownSum(num) {
        
-    if(num == 0)
+    console.log(num);
+
+    if(num == 1)
     {
         return num; 
     }
