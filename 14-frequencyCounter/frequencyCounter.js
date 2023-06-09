@@ -1,5 +1,5 @@
 function frequencyCounter(word) {
-     
+      
     //object of key pairs to return
     let letterfreqs = {};
 
@@ -8,7 +8,7 @@ function frequencyCounter(word) {
     for(let i = 0 ; i < word.length; i++)
     {
         
-        if(letterfreqs[word(i)]) // if there has been this letter before add 1 to current val
+        if(letterfreqs[word[i]]) // if there has been this letter before add 1 to current val
         {
             letterfreqs[word[i]] = letterfreqs[word[i]]+1;
         }
